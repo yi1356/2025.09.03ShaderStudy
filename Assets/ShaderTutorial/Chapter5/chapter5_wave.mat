@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: chapter5_wave
+  m_Shader: {fileID: 4800000, guid: af6a1bdf5f6561e4584e48e058beb2c5, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: bd3249e8aae01e748aaca0c062e2c19c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LigtningTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bd3249e8aae01e748aaca0c062e2c19c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 5af962d54400e5a4eb74cebb60dbe3a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 6e14fde62ace32749805a908d99a0261, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldAlbedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldAo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShieldNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveTex:
+        m_Texture: {fileID: 2800000, guid: bd3249e8aae01e748aaca0c062e2c19c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Ambient_Multiplier: 24.41
+    - _Amplitude: 0.8
+    - _BumpScale: 1
+    - _DepthRange: 1
+    - _DistortAmount: 0.5
+    - _DistortTexXSpeed: 5
+    - _DistortTexYSpeed: 5
+    - _Distortion: -3.21
+    - _EdgeLength: 5
+    - _EdgeThreshold: 0.1
+    - _FoamColorScale: -52.55
+    - _FoamSpeed: 71.39
+    - _FoamThreshold: -40.43
+    - _FresnelScale: 0.5
+    - _Gloss: 1
+    - _Glossiness: 0
+    - _LigtningPower: 0
+    - _LigtningTiling: 1
+    - _MaxDisplacement: 0
+    - _Metallic: 0.044
+    - _NoisePower: 0.08
+    - _NormalScale: -1.4
+    - _NormalSpeed: 0.79
+    - _OcclusionStrength: 0
+    - _Phong: 0.5
+    - _RandomSeed: 0
+    - _Refract: 0.1
+    - _ShieldMetallic: 0
+    - _ShieldSmoothness: 0
+    - _ShieldTiling: 1
+    - _Shininess: 0.566
+    - _Specular: 1
+    - _Speed: 2.6
+    - _Steepness: 0.528
+    - _Steepness0: 0
+    - _Steepness1: 0
+    - _SubdivisionAmount: 5
+    - _TessellationEdge: 1
+    - _TessellationEdgeLength: 1
+    - _TessellationInside: 4.1
+    - _TessellationUniform: 1
+    - _TranAmount: 0.5
+    - _Transparency: 0.5
+    - _WaterSpeed: 1
+    - _WaveAmplitude: 0.3
+    - _WaveDelta: 0.5
+    - _WaveFrequency: 0.5
+    - _WaveGap: -0.11
+    - _WaveHeight: 0.2
+    - _WaveRange: 0.5
+    - _WaveRangeA: 1
+    - _WaveSpeed: 0.85
+    - _Wavelength: 1.8
+    - _Wavelength0: 4.4
+    - _Wavelength1: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 0.16936633, g: 0.19352156, b: 0.20754719, a: 1}
+    - _EdgeColor: {r: 0, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LightningColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflectionColor: {r: 0, g: 0.5, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterDeepColr: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterShallowColr: {r: 1, g: 1, b: 1, a: 1}
+    - _WaveDir: {r: 0.99, g: -0.84, b: 0, a: 0}
+    - _WaveDir0: {r: 1, g: 0.51, b: 0, a: 0}
+    - _WaveDir1: {r: 2.77, g: -0.83, b: 0, a: 0}
+  m_BuildTextureStacks: []
